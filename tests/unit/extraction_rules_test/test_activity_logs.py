@@ -37,6 +37,7 @@ alert_record = {
             "subscriptionId": "69b51384-146c-4685-9dab-5ae01877d7b8",
             "eventDataId": "d5d50404-bea9-471b-9894-400dc40b77e0",
             "resourceGroup": "",
+            "resourceLocation": "northeurope",
             "resourceId": "/subscriptions/69b51384-146c-4685-9dab-5ae01877d7b8/providers/microsoft.insights/diagnosticSettings/eventhub",
             "eventTimestamp": "2021-02-09T11:14:10.8715705Z",
             "operationName": "microsoft.insights/diagnosticSettings/write",
@@ -107,6 +108,7 @@ administrative_record = {
     "level": "Error",
     "properties": {
         "statusCode": "NotFound",
+        "resourceLocation": "northeurope",
         "serviceRequestId": None,
         "statusMessage": "{\"error\":{\"code\":\"ResourceGroupNotFound\",\"message\":\"Resource group 'mw-gr1' could not be found.\"}}",
         "eventCategory": "Administrative",
@@ -216,6 +218,7 @@ resource_health_record = {
         "eventCategory": "ResourceHealth",
         "eventProperties": {
             "title": "Unavailable",
+            "resourceLocation": "northeurope",
             "details": "Some of your load balancing endpoints may be unavailable. Please see the metrics blade for availability information and troubleshooting steps for recommended solutions.",
             "currentHealthStatus": "Available",
             "previousHealthStatus": "Available",
