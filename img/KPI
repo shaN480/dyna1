@@ -1,0 +1,12 @@
+Weeva Dynatrace KPIs:
+Application Availability:
+Availability with uptime monitor
+Planned maintenance
+Site speed/performance:
+Configs for RUM tools
+API and WEB monitoring
+Incident Handling:
+Ensuring response time for incident handling (P1-8h, P2-48h, P3-Next Sprint)
+Quality Code, dependencies & risks:
+Lint Audits {Quarterly Lint Tests}
+NPM Audits {Outdated packages/dependencies}
